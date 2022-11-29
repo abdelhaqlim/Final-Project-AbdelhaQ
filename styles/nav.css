@@ -1,0 +1,78 @@
+/* nav */
+.nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* logo */
+.nav > .logo {
+  display: flex;
+  height: 50%;
+  padding: 40px;
+}
+/* navBar */
+.nav > .navBar {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 500px;
+}
+.nav > .navBar > .exp {
+  color: gold;
+}
+
+.nav > .navBar > .links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.nav > .navBar > .links-wrapper > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
+.nav > .navBar > .links-wrapper > .spa {
+  color: gray;
+  font-weight: 300;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.nav > .navBar > .links-wrapper > .spa > i {
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+/* btn */
+.btn {
+  display: flex;
+}
+
+.btn > .navButton {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: hsl(222, 13%, 20%);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 25px;
+  margin-right: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn > .navButton > i {
+  color: #23d771;
+  margin-left: 10px;
+}
+
+.btn > .search {
+  color: gray;
+  background-color: transparent;
+  font-size: 30px;
+  padding: 7px;
+  margin: 0px 20px;
+  cursor: pointer;
+}
